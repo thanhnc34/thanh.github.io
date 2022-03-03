@@ -1,0 +1,44 @@
+@media(min-width:741px){
+   
+}
+/* mobile */
+@media(max-width:740px){
+    #nav{
+        display: block;
+    }
+    #header .menu{
+        top: 0;
+        right: 0;
+        position: absolute;
+        display: block;
+    }
+    #nav li{
+    display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+        }
+    #nav .subnav{
+            position: initial;
+            background-color: #ccc;
+            padding-left: 20px;
+        }
+    #header{
+        overflow: hidden;
+    }
+    #header .search{
+        display: none;
+    }
+    .s-col-full {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #content .team-list .member-img {
+        
+        width: 60%;
+    } 
+    .s-full-width{
+        width: 100%;
+    }
+}
+
