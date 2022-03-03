@@ -131,8 +131,9 @@ html{
 #slider {
     margin-top: 46.5px;
     padding-top: 50%;
-    /* background-image: url("../img/slider/slider2.jpg"); */
+    
     background-image: url("../img/places/place1.jpg");
+    background-image: url("../img/slider/slider2.jpg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
